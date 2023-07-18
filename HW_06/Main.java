@@ -115,7 +115,7 @@ public class Main {
                                 int select = userInput - 1;
                                 int count = 0;
                                 for (int i = 0; i < valuesNB.size(); i ++){
-                                    if (valueHDDArray[select].equals(valuesNB.get(i).valueHDD)){
+                                    if (valueHDDArray[select] <= (valuesNB.get(i).valueHDD)){
                                         System.out.println(nb.get(keysNB.get(i)));
                                         count ++;
                                     }
@@ -144,7 +144,7 @@ public class Main {
                                 int select = userInput - 1;
                                 int count = 0;
                                 for (int i = 0; i < valuesNB.size(); i ++){
-                                    if (valueRAMArray[select].equals(valuesNB.get(i).valueRAM)){
+                                    if (valueRAMArray[select] <= (valuesNB.get(i).valueRAM)){
                                         System.out.println(nb.get(keysNB.get(i)));
                                         count ++;
                                     }
